@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "empro",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Emerald Project",
+	"description": "Mod que busca incluir no Minecraft, itens de Esmeralda.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/PyEdoardo",
+		"sources": "https://github.com/PyEdoardo/emeraldproject"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/empro/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.pyedoardo.EmeraldProject"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.pyedoardo.EmeraldProjectClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"empro.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "empro.client.mixins.json",
 			"environment": "client"
 		}
 	],
