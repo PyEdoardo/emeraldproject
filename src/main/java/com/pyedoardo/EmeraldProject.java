@@ -1,7 +1,9 @@
 package com.pyedoardo;
 
+import com.pyedoardo.items.IniciadorItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +20,10 @@ public class EmeraldProject implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Bem Vindo ao Emerald Project!");
+		IniciadorItems.initialize();
+	}
+	public static Identifier id(String path) {
+		return Identifier.of(EmeraldProject.MOD_ID, path);
 	}
 }
