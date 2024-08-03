@@ -1,4 +1,5 @@
 {
   "item.empro.esmeralda_densa" : "Dense Emerald",
-  "item.empro.maca_esmeralda" : "Emerald Apple"
+  "item.empro.maca_esmeralda" : "Emerald Apple",
+  "block.empro.bloco_esmeralda_densa" : "Dense Emerald Block"
 }

@@ -1,7 +1,9 @@
 package com.pyedoardo.items;
 
 import com.pyedoardo.EmeraldProject;
+import com.pyedoardo.blocks.IniciadorBlocos;
 import com.pyedoardo.list.ListaAlimento;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -13,6 +15,8 @@ public class IniciadorItems {
 
     }
     public static final Item ESMERALDA_DENSA = register("esmeralda_densa", new Item(new Item.Settings()));
+
+    public static final BlockItem BLOCO_ESMERALDA_DENSA = register("bloco_esmeralda_densa", new BlockItem(IniciadorBlocos.BLOCO_ESMERALDA_DENSA, new Item.Settings()));
 
     public static final Item MACA_ESMERALDA = register("maca_esmeralda", new Item(new Item.Settings().food(ListaAlimento.MACA_ESMERALDA_COMPONENTE)));
 
