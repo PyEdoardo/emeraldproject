@@ -1,13 +1,10 @@
 package com.pyedoardo.items;
 
 import com.pyedoardo.EmeraldProject;
-import net.fabricmc.api.ModInitializer;
+import com.pyedoardo.list.ListaAlimento;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
-
-import static net.minecraft.item.Items.register;
 
 public class IniciadorItems {
     public static <T extends Item> T register(String name, T item) {
@@ -16,6 +13,9 @@ public class IniciadorItems {
 
     }
     public static final Item ESMERALDA_DENSA = register("esmeralda_densa", new Item(new Item.Settings()));
+
+    public static final Item MACA_ESMERALDA = register("maca_esmeralda", new Item(new Item.Settings().food(ListaAlimento.MACA_ESMERALDA_COMPONENTE)));
+
     public static void initialize() {
     }
 }
