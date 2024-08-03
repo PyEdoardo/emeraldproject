@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Emerald Project
+
+## Oque é?
+
+O Emerald Project é um pequeno projeto, para treinar skills com o java, ele se propôe em adicionar a esmeralda densa, dando uma vida nova a esse minério, adicionando ferramentas densas de esmeralda com efeitos, maçã de esmeralda entre outros que virão.
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Você pode tanto pegar o jar em releases e jogar na pasta mods, quanto compilar, lembrar de usar o JDK-21, de preferência o temurin pelo baixo tempo de compilação.
